@@ -1,0 +1,30 @@
+TUTORIAL INSTALASI SOURCODE SMM PANEL SEWA ZAYNFLAZZ
+support by : zaynflazz.com
+-Wa : 083191910986
+-Di larang memperjualbelikan script ini tanpa izin
+
+Version PHP 7.4
+1. upload script sourcode di cpanel file manager public_html atau subdomain kamu lalu ektrak file zip nya
+2. kemudian Buatlah database di cpanel kamu
+3. Upload file bernama INIDATABASENYA.sql ke database kamu
+4. koneksikan database dengan script sourcode smm panel .buka file manager public_html atau subdomain kamu
+5. edit file bernama config.php
+6. ubah :
+-  ubah nama database dengan nama database kamu
+-  ubah username dengan nama username database kamu
+-  ubah password dengan nama password database kamu
+-  ubah url domain dengan nama url domain kamu
+// contoh: https://domainkamu.com/  harus di akhiri dengan slas ( / )
+7. Selesai ? selanjutnya buka website smm kamu ubah data nama , logo dll via halaman admin 
+- LOGIN ADMIN
+ // username : admin123  //
+ // password : admin123 //
+
+
+
+// Sesuikan alamat folder dengan alamat cpanel kamu ( /cronsjob/... ) WAJIB// 
+
+// CONTOH CRONSJOB //
+php -q /home/cpanel/public_html/cronsjob/get-status.php
+php -q /home/cpanel/public_html/cronsjob/refund.php
+php -q /home/cpanel/public_html/cronsjob/get-refill-status.php
